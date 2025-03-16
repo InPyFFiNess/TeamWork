@@ -1,2 +1,2 @@
 #pragma once
-void FindElement(int array, int size);
+void FindElement(int* array, int size);
