@@ -12,10 +12,11 @@ int main()
 	{
 		std::cin >> array[i];
 	}
+	PrintArray(array, size);
 	FindElement(array, size);
 	NegArrNum(array, size);
+	SortArray(array, size);
 	std::cout << "MaxElement = " << MaxElement(array, size) << "MinElement = " << MinElement(array, size);
-
 	return 0;
 }
 	
