@@ -1,7 +1,7 @@
 #include"MainHeader.h"
-int32_t MaxElement(int32_t* array, int32_t size)
+int MaxElement(int* array, int size)
 {
-	int32_t maxIndex{};
+	int maxIndex{};
 	for (int i = 1; i < size; ++i)
 	{
 		if (array[i] > array[maxIndex])
@@ -12,9 +12,9 @@ int32_t MaxElement(int32_t* array, int32_t size)
 	return maxIndex;
 }
 
-int32_t MinElement(int32_t* array, int32_t size)
+int MinElement(int* array, int size)
 {
-	int32_t minIndex{};
+	int minIndex{};
 	for (int i = 1; i < size; ++i)
 	{
 		if (array[i] < array[minIndex])

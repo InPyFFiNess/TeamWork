@@ -1,6 +1,6 @@
-#include"MainHeader.h"
+#include "MainHeader.h"
 
-void NegArrNum(int32_t* array, int32_t size)
+void NegArrNum(int* array, int size)
 {
 	for (size_t i = 0; i < size; ++i)
 	{

@@ -13,6 +13,9 @@ int main()
 		std::cin >> array[i];
 	}
 	FindElement(array, size);
+	NegArrNum(array, size);
+	std::cout << "MaxElement = " << MaxElement(array, size) << "MinElement = " << MinElement(array, size);
+
 	return 0;
 }
 	
