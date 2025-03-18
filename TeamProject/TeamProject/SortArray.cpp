@@ -1,7 +1,8 @@
 #include "MainHeader.h"
 #include <iostream>
 
-void SortArray(int* array, int size)
+template <typename T>
+void SortArray(T* array, int size)
 {
 	int temp{};
 	for (size_t i = 0; i < size - 1; ++i)

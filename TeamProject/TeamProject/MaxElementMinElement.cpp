@@ -1,5 +1,7 @@
 #include"MainHeader.h"
-int MaxElement(int* array, int size)
+
+template <typename T>
+int MaxElement(T* array, int size)
 {
 	int maxIndex{};
 	for (int i = 1; i < size; ++i)
@@ -12,7 +14,8 @@ int MaxElement(int* array, int size)
 	return maxIndex;
 }
 
-int MinElement(int* array, int size)
+template <typename T>
+int MinElement(T* array, int size)
 {
 	int minIndex{};
 	for (int i = 1; i < size; ++i)

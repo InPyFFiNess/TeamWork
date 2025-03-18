@@ -1,8 +1,14 @@
 #pragma once
 #include <vector>;
-void FindElement(int* array, int size);
-int MaxElement(int* array, int size);
-int MinElement(int* array, int size);
-void NegArrNum(int* array, int size);
-void SortArray(int* array, int size);
-void PrintArray(int* array, int size);
+template <typename T>
+void FindElement(T* array, int size);
+template <typename T>
+int MaxElement(T* array, int size);
+template <typename T>
+int MinElement(T* array, int size);
+template <typename T>
+void NegArrNum(T* array, int size);
+template <typename T>
+void SortArray(T* array, int size);
+template <typename T>
+void PrintArray(T* array, int size);

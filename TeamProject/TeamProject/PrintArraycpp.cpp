@@ -1,6 +1,7 @@
 #include "MainHeader.h"
 
-void PrintArray(int* array, int size)
+template <typename T>
+void PrintArray(T* array, int size)
 {
 	for (size_t i = 0; i < size; ++i)
 	{

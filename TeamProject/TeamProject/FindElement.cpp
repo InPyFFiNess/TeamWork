@@ -1,7 +1,8 @@
 #include "MainHeader.h"
 #include <iostream>
 
-void FindElement(int* array, int size)
+template <typename T>
+void FindElement(T* array, int size)
 {
 	int element{};
 	int position{-1};
