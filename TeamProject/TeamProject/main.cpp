@@ -16,7 +16,7 @@ int main()
 	FindElement(array, size);
 	NegArrNum(array, size);
 	SortArray(array, size);
-	std::cout << "MaxElement = " << MaxElement(array, size) << "MinElement = " << MinElement(array, size);
+	std::cout << "MaxElement = " << MaxElement(array, size) << " MinElement = " << MinElement(array, size) << " Sum of Prime = " << SimpleSum(array, size);
 	return 0;
 }
 	
