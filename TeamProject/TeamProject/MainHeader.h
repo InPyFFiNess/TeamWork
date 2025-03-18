@@ -1,5 +1,5 @@
 #pragma once
-#include <vector>;
+
 template <typename T>
 void FindElement(T* array, int size);
 template <typename T>
